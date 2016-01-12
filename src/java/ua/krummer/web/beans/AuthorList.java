@@ -1,4 +1,4 @@
-package ru.javabegin.training.web.beans;
+package ua.krummer.web.beans;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -7,7 +7,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import ru.javabegin.training.web.db.Database;
+import ua.krummer.web.db.Database;
 
 public class AuthorList {
 

@@ -1,4 +1,4 @@
-package ru.javabegin.training.web.beans;
+package ua.krummer.web.beans;
 
 public class Author {
 

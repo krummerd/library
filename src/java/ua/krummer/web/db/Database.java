@@ -1,4 +1,4 @@
-package ru.javabegin.training.web.db;
+package ua.krummer.web.db;
 
 import java.sql.Connection;
 import java.sql.SQLException;
