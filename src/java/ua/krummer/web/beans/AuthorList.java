@@ -1,4 +1,4 @@
-package ua.krummer.web.beans;
+ package ua.krummer.web.beans;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
