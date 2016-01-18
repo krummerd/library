@@ -31,7 +31,7 @@ public class GerneList implements Serializable {
                 Gerne gerne = new Gerne();
                 
                 gerne.setName(resSet.getString("name"));
-                
+                gerne.setId(resSet.getLong("id"));
                 gerneList.add(gerne);
             }
             

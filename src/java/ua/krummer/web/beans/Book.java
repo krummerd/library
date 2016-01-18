@@ -8,6 +8,7 @@ import java.util.Date;
 
 public class Book implements Serializable{
     
+    private long id;
     private String name;
     private byte[] content;
     private int pageCount;
@@ -88,6 +89,14 @@ public class Book implements Serializable{
 
     public void setImage(Image image) {
         this.image = image;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
     
  

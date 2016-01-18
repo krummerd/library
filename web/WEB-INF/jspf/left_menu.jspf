@@ -1,0 +1,14 @@
+<%@page import="ua.krummer.web.beans.Gerne"%>
+<%@ page pageEncoding="UTF-8" %>
+<div class="sidebar1">
+    <h4>Жанр:</h4>
+    <ul class="nav">
+        <jsp:useBean id="gerneList" class="ua.krummer.web.beans.GerneList" scope="application"/>
+        <%
+            for (Gerne gerne : gerneList.getGerneList()) {
+        %>
+        <li><a href="books.jsp?gerne_id=<%=gerne.getId()%>&name=<%=gerne.getName()%>"><%=gerne.getName()%></a></li>
+
+        <%}%>
+    </ul>
+</div>
