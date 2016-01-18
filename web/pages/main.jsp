@@ -17,11 +17,11 @@
             <div class="header">
                 
                 <div class="logo">
-                    <img src="../images/library.png" alt="Р›РѕРіРѕС‚РёРї" name="logo" />
+                    <img src="../images/library.png" alt="library_logo" name="logo" />
                 </div>
                 
                 <div class="descr">
-                    <h3>РћРЅР»Р°Р№РЅ Р±РёР±Р»РёРѕС‚РµРєР° РїСЂРѕРµРєС‚Р° javabegin.ru</h3>
+                    <h3>Онлайн библиотека</h3>
                 </div>
 
                 <div class="search_form">
