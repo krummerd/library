@@ -25,7 +25,7 @@ public class GerneList implements Serializable {
             conn = Database.getConnection();
             stmt = conn.createStatement();
             
-            resSet = stmt.executeQuery("select * from gerne order by name");
+            resSet = stmt.executeQuery("select * from genre order by name");
             
             while(resSet.next()){
                 Gerne gerne = new Gerne();

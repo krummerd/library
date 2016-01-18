@@ -38,9 +38,9 @@ public class BookList {
                 book.setGerne(resSet.getString("genre"));
                 book.setIsbn(resSet.getString("isbn"));
                 book.setPageCount(resSet.getInt("page_count"));
-                book.setPublishDate(resSet.getDate("publish_year"));
+                book.setPublishDate(resSet.getInt("publish_year"));
                 book.setPublisher(resSet.getString("publisher"));
-                book.setImage(new ImageIcon(resSet.getBytes("image")).getImage());
+                book.setImage(resSet.getBytes("image"));
                                 
                 bookList.add(book);
             }
@@ -77,7 +77,6 @@ public class BookList {
     }
     
     public ArrayList<Book> getBooksByGenre(long id) {;
-        
         return getBooks("select b.id,b.name,b.isbn,b.page_count,b.publish_year, p.name as publisher, a.fio as author, g.name as genre, b.image from book b "
                 + "inner join author a on b.author_id=a.id "
                 + "inner join genre g on b.genre_id=g.id "
